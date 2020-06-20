@@ -18,7 +18,17 @@ function nowServing(currLine){
 var copy = currLine[0];
 delete currLine[0];
 
-return "Currently serving " + copy + ".";
+
+if(currLine[0] = null){
+  
+  return " There is nobody waiting to be served!";
+}
+
+else {
+  return "Currently serving " + copy + ".";
+  
+}
+
 
 
 }
