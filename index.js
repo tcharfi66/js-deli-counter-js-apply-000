@@ -15,19 +15,19 @@ function takeANumber(currLine, n){
 
 function nowServing(currLine){
 
-var copy = currLine[0];
-delete currLine[0];
-
-
-if(currLine[0] !== undefined){
-  
-   return "Currently serving " + copy + ".";
-}
-
-else {
-  
-  return " There is nobody waiting to be served!";
-}
+        var copy = currLine[0];
+        delete currLine[0];
+        
+        
+        if(currLine[0] !== undefined){
+          
+           return "Currently serving " + copy + ".";
+        }
+        
+        else {
+          
+          return " There is nobody waiting to be served!";
+        }
 
 
 
