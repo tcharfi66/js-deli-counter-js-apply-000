@@ -24,3 +24,11 @@ function nowServing(currLine){
       return "There is nobody waiting to be served!";
 }
 
+function currentLine(currLine){
+  
+  for( var i = 0; i<currLine.length; i++){
+    
+    
+    
+  }
+}
