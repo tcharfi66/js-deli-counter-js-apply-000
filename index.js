@@ -33,7 +33,11 @@ function currentLine(currLine){
   
   for( var i = 0; i<currLine.length; i++){
     
-    line += (i+1) + ". " + currLine[i] + ", ";
+    line += (i+1) + ". " + currLine[i];
+    
+    if(i !== currLine.length){
+      line +=  ", "
+    }
     
   }
   return line;
