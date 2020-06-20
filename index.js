@@ -20,8 +20,7 @@ function nowServing(currLine){
          return "Currently serving " + n + ".";
          
        }
+       
       return "There is nobody waiting to be served!";
-
-
-
 }
+
