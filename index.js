@@ -29,6 +29,6 @@ function currentLine(currLine){
   for( var i = 0; i<currLine.length; i++){
     
     
-    
+    currLine.push(currLine[i])
   }
 }
