@@ -15,8 +15,7 @@ function takeANumber(currLine, n){
 
 function nowServing(currLine){
 
-var copy = currLine[0];
-delete currLine[0];
+
 
 
 if(currLine[0] = null){
@@ -25,6 +24,8 @@ if(currLine[0] = null){
 }
 
 else {
+  var copy = currLine[0];
+  delete currLine[0];
   return "Currently serving " + copy + ".";
   
 }
