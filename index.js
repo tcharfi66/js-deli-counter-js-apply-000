@@ -19,14 +19,14 @@ var copy = currLine[0];
 delete currLine[0];
 
 
-if(currLine[0] != null){
+if(currLine[0] !== undefined){
   
-  return " There is nobody waiting to be served!";
+   return "Currently serving " + copy + ".";
 }
 
 else {
-  return "Currently serving " + copy + ".";
-  
+ 
+  return " There is nobody waiting to be served!";
 }
 
 
