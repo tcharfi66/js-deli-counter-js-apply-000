@@ -30,7 +30,7 @@ function currentLine(currLine){
   
   for( var i = 0; i<currLine.length; i++){
     
-    line += i + "." + currLine[i] + ", ";
+    line += (i+1) + "." + currLine[i] + ", ";
     
   }
   return line;
