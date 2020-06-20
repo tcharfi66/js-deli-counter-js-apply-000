@@ -26,9 +26,12 @@ function nowServing(currLine){
 
 function currentLine(currLine){
   
+  var line = "The line is currently: ";
+  
   for( var i = 0; i<currLine.length; i++){
     
+    line += i + "." + currLine[i] + ", ";
     
-    currLine.push(currLine[i])
   }
+  return line;
 }
