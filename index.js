@@ -35,7 +35,7 @@ function currentLine(currLine){
     
     line += (i+1) + ". " + currLine[i];
     
-    if(i !== currLine.length){
+    if(i !== (currLine.length-1)){
       line +=  ", "
     }
     
