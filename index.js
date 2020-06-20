@@ -25,7 +25,7 @@ if(currLine[0] !== undefined){
 }
 
 else {
- 
+  
   return " There is nobody waiting to be served!";
 }
 
