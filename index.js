@@ -28,6 +28,9 @@ function currentLine(currLine){
   
   var line = "The line is currently: ";
   
+  if (currLine.length == 0)
+      return "The line is currently empty."
+  
   for( var i = 0; i<currLine.length; i++){
     
     line += (i+1) + ". " + currLine[i] + ", ";
