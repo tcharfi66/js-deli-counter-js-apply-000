@@ -15,10 +15,12 @@ function takeANumber(currLine, n){
 
 function nowServing(currLine){
 
-       if( currLine.length !== 0){
-         
+       if(currLine.length !== 0){
+         var n = currLine.shift();
+         return "Currently serving " + n;
          
        }
+      return "There is nobody waiting to be served!";
 
 
 
